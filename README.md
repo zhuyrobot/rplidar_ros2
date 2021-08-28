@@ -11,30 +11,12 @@ rplidar HomePage:   http://www.slamtec.com/en/Lidar
 
 rplidar Tutorial:  https://github.com/robopeak/rplidar_ros/wiki
 
-How to build rplidar ros package
-=====================================================================
-    1) Clone this project to your catkin's workspace src folder
-    2) Running catkin_make to build rplidarNode and rplidarNodeClient
 
-How to run rplidar ros package
-=====================================================================
-There're two ways to run rplidar ros package
 
-I. Run rplidar node and view in the rviz
-------------------------------------------------------------
-roslaunch rplidar_ros view_rplidar.launch
-
-You should see rplidar's scan result in the rviz.
-
-II. Run rplidar node and view using test application
-------------------------------------------------------------
-roslaunch rplidar_ros rplidar.launch
-
-rosrun rplidar_ros rplidarNodeClient
-
-You should see rplidar's scan result in the console
-
-RPLidar frame
-=====================================================================
-RPLidar frame must be broadcasted according to picture shown in
-rplidar-frame.png
+    (1) 打开终端执行：
+        source /opt/ros/foxy/setup.bash
+    (2) 进入/root/app/rplidar_ros2/out，执行：
+        colcon build --merge-install --base-path .. --cmake-args -DCOMMON_CMAKE=/root/app/include/cscv/cmaker/cscv.cmake
+    (3) 打开新的终端启动launch文件：
+    source /root/app/ros2ex/rplidar_ros2/out/install/setup.bash
+    ros2 launch rplidar_ros2 rplidar.launch.py

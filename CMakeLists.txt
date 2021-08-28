@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.15)
 project(rplidar_ros2)
 
 #1.Cfg
@@ -7,8 +7,7 @@ if(NOT EXISTS ${COMMON_CMAKE})
 message(FATAL_ERROR "${COMMON_CMAKE} not exist") 
 endif()
 include(${COMMON_CMAKE})
-
-
+find_package(rosidl_default_generators REQUIRED) ####################add1
 #2.Pro
 set(RPLIDAR_SDK_PATH "./sdk/")
 
@@ -29,4 +28,10 @@ add_executable(rplidarNode CMakeLists.txt  src/node.cpp ${RPLIDAR_SDK_SRC})
 
 add_executable(rplidarNodeClient CMakeLists.txt  src/client.cpp)
 
-
+install(TARGETS rplidarNode DESTINATION lib/${PROJECT_NAME}) ####################add2
+install(TARGETS rplidarNodeClient DESTINATION lib/${PROJECT_NAME}) ####################add2
+  
+install(DIRECTORY launch DESTINATION share/${PROJECT_NAME}) ####################add3
+  
+ament_package()###m####################add4
+#colcon build --merge-install --base-path .. --cmake-args -DCOMMON_CMAKE=/root/app/include/cscv/cmaker/cscv.cmake

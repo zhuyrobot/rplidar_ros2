@@ -1,0 +1,942 @@
+[0.000000] (-) TimerEvent: {}
+[0.000785] (rplidar_ros2) JobQueued: {'identifier': 'rplidar_ros2', 'dependencies': OrderedDict()}
+[0.000833] (rplidar_ros2) JobStarted: {'identifier': 'rplidar_ros2'}
+[0.011585] (rplidar_ros2) JobProgress: {'identifier': 'rplidar_ros2', 'progress': 'cmake'}
+[0.012119] (rplidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/root/app/ros2ex/rplidar_ros2', '-DCOMMON_CMAKE=/root/app/include/cscv/cmaker/cscv.cmake', '-DCMAKE_INSTALL_PREFIX=/root/app/ros2ex/rplidar_ros2/out/install'], 'cwd': '/root/app/ros2ex/rplidar_ros2/out/build/rplidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2421'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/root'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2276'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus,guid=8cfaee98f45bb7a832ff1fcd6125147e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'root'), ('JOURNAL_STREAM', '8:51191'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ZhuPC:@/tmp/.ICE-unix/2473,unix/ZhuPC:/tmp/.ICE-unix/2473'), ('INVOCATION_ID', 'e9c460278b544c77bab44d7ec8576085'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/16cf2029_5aee_499d_8e5e_167d346de751'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/0/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AUTH_SOCK', '/run/user/0/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/0/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/root/app/ros2ex/rplidar_ros2/out/build/rplidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/0/bus,guid=8cfaee98f45bb7a832ff1fcd6125147e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100043] (-) TimerEvent: {}
+[0.129798] (rplidar_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.196049] (rplidar_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.200121] (-) TimerEvent: {}
+[0.201321] (rplidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.284076] (rplidar_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.285125] (rplidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300250] (-) TimerEvent: {}
+[0.367614] (rplidar_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.381486] (rplidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.381894] (rplidar_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.384749] (rplidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400372] (-) TimerEvent: {}
+[0.473927] (rplidar_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.475216] (rplidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500498] (-) TimerEvent: {}
+[0.566442] (rplidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.580881] (rplidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.581520] (rplidar_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.583341] (rplidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600625] (-) TimerEvent: {}
+[0.669958] (rplidar_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.670215] (rplidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700751] (-) TimerEvent: {}
+[0.758149] (rplidar_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.758412] (rplidar_ros2) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[0.800872] (-) TimerEvent: {}
+[0.844837] (rplidar_ros2) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[0.845834] (rplidar_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.846065] (rplidar_ros2) StderrLine: {'line': b'Platform: UNIX\n'}
+[0.846222] (rplidar_ros2) StderrLine: {'line': b'Platform: UNIX\n'}
+[0.846308] (rplidar_ros2) StderrLine: {'line': b'Platform: UNIX\n'}
+[0.846386] (rplidar_ros2) StderrLine: {'line': b'Platform: UNIX\n'}
+[0.846460] (rplidar_ros2) StderrLine: {'line': b'Platform: UNIX\n'}
+[0.846544] (rplidar_ros2) StderrLine: {'line': b'Platform: UNIX\n'}
+[0.865397] (rplidar_ros2) StderrLine: {'line': b'Linked libraries\n'}
+[0.865740] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/liboctomap.so\n'}
+[0.866256] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/liboctomath.so\n'}
+[0.870111] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/liboctovis.so\n'}
+[0.870193] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libdynamicedt3d.so\n'}
+[0.870268] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libDepthImageToLaserScan.so\n'}
+[0.870341] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libDepthImageToLaserScanROS.so\n'}
+[0.870420] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_msgs__python.so\n'}
+[0.870490] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_msgs__rosidl_generator_c.so\n'}
+[0.870569] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_c.so\n'}
+[0.870641] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.870711] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.870781] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_cpp.so\n'}
+[0.870850] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.870920] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.870990] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.871060] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.871133] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_tutorials.so\n'}
+[0.871202] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_tutorials_interfaces__python.so\n'}
+[0.871271] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_tutorials_interfaces__rosidl_generator_c.so\n'}
+[0.871340] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_tutorials_interfaces__rosidl_typesupport_c.so\n'}
+[0.871410] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_tutorials_interfaces__rosidl_typesupport_connext_c.so\n'}
+[0.871480] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_tutorials_interfaces__rosidl_typesupport_connext_cpp.so\n'}
+[0.871549] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_tutorials_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.871618] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.871691] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_tutorials_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.871800] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.871870] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libaction_tutorials_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.871938] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libactionlib_msgs__python.so\n'}
+[0.872006] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libactionlib_msgs__rosidl_generator_c.so\n'}
+[0.872075] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libactionlib_msgs__rosidl_typesupport_c.so\n'}
+[0.872143] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libactionlib_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.872212] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libactionlib_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.872281] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libactionlib_msgs__rosidl_typesupport_cpp.so\n'}
+[0.872350] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libactionlib_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.872418] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libactionlib_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.872486] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libactionlib_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.872563] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libactionlib_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.872632] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libamcl_core.so\n'}
+[0.872714] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libament_index_cpp.so\n'}
+[0.872782] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libasync_slam_toolbox.so\n'}
+[0.872856] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libbehaviortree_cpp_v3.so\n'}
+[0.872926] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libbt_navigator_core.so\n'}
+[0.872996] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libbuiltin_interfaces__python.so\n'}
+[0.873064] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so\n'}
+[0.873132] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so\n'}
+[0.873245] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_connext_c.so\n'}
+[0.873411] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_connext_cpp.so\n'}
+[0.873495] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.873561] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.873627] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.873698] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.873765] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.873835] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcamera_calibration_parsers.so\n'}
+[0.873902] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcamera_info_manager.so\n'}
+[0.873967] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcartographer_ros_msgs__python.so\n'}
+[0.874032] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcartographer_ros_msgs__rosidl_generator_c.so\n'}
+[0.874097] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcartographer_ros_msgs__rosidl_typesupport_c.so\n'}
+[0.874163] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcartographer_ros_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.874229] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcartographer_ros_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.874296] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcartographer_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[0.874363] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcartographer_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.874428] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcartographer_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.874498] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcartographer_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.874606] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcartographer_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.874672] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libceres_solver_plugin.so\n'}
+[0.874738] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libclass_loader.so\n'}
+[0.874824] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libclient_component.so\n'}
+[0.874904] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcomponent_manager.so\n'}
+[0.874971] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcomposition_interfaces__python.so\n'}
+[0.875038] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcomposition_interfaces__rosidl_generator_c.so\n'}
+[0.875105] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_c.so\n'}
+[0.875172] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_connext_c.so\n'}
+[0.875272] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_connext_cpp.so\n'}
+[0.875353] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.875435] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.875499] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.875563] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.875628] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.875693] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcomposition_nodes.so\n'}
+[0.875758] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcontrol_msgs__python.so\n'}
+[0.875823] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcontrol_msgs__rosidl_generator_c.so\n'}
+[0.875887] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_c.so\n'}
+[0.875951] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.876016] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.876081] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_cpp.so\n'}
+[0.876146] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.876210] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.876275] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.876339] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.876403] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libconversions.so\n'}
+[0.876468] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libconverter_test_plugins.so\n'}
+[0.876534] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libcv_bridge.so\n'}
+[0.876598] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdiagnostic_msgs__python.so\n'}
+[0.876662] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdiagnostic_msgs__rosidl_generator_c.so\n'}
+[0.876726] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdiagnostic_msgs__rosidl_typesupport_c.so\n'}
+[0.876791] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdiagnostic_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.876856] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdiagnostic_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.876920] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so\n'}
+[0.876985] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.877049] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.877112] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.877176] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.877240] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdwb_core.so\n'}
+[0.877304] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdwb_critics.so\n'}
+[0.877368] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdwb_msgs__python.so\n'}
+[0.877432] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdwb_msgs__rosidl_generator_c.so\n'}
+[0.877496] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdwb_msgs__rosidl_typesupport_c.so\n'}
+[0.877560] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdwb_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.877623] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdwb_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.877691] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdwb_msgs__rosidl_typesupport_cpp.so\n'}
+[0.877755] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.877818] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.877882] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.877947] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.878016] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdynamicedt3d.so\n'}
+[0.878081] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libdynamixel_sdk.so\n'}
+[0.878145] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libexample_interfaces__python.so\n'}
+[0.878208] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libexample_interfaces__rosidl_generator_c.so\n'}
+[0.878271] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_c.so\n'}
+[0.878334] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_connext_c.so\n'}
+[0.878398] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_connext_cpp.so\n'}
+[0.878461] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.878552] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.878654] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.878722] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.878789] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.878859] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libfastcdr.so\n'}
+[0.878924] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libfastrtps.so\n'}
+[0.878987] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_msgs__python.so\n'}
+[0.879051] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_msgs__rosidl_generator_c.so\n'}
+[0.879115] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_msgs__rosidl_typesupport_c.so\n'}
+[0.879178] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.879242] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.879307] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_msgs__rosidl_typesupport_cpp.so\n'}
+[0.879370] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.879435] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.879499] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.879562] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.879625] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_ackermann_drive.so\n'}
+[0.879689] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_bumper.so\n'}
+[0.879751] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_camera.so\n'}
+[0.879814] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_diff_drive.so\n'}
+[0.879878] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_elevator.so\n'}
+[0.879942] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_factory.so\n'}
+[0.880005] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_force.so\n'}
+[0.880072] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_force_system.so\n'}
+[0.880136] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_ft_sensor.so\n'}
+[0.880199] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_gps_sensor.so\n'}
+[0.880261] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_hand_of_god.so\n'}
+[0.880323] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_harness.so\n'}
+[0.880386] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_imu_sensor.so\n'}
+[0.880447] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_init.so\n'}
+[0.880516] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_joint_pose_trajectory.so\n'}
+[0.880580] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_joint_state_publisher.so\n'}
+[0.880644] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_node.so\n'}
+[0.880707] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_p3d.so\n'}
+[0.880769] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_planar_move.so\n'}
+[0.880832] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_projector.so\n'}
+[0.880894] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_properties.so\n'}
+[0.880957] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_ray_sensor.so\n'}
+[0.881019] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_state.so\n'}
+[0.881081] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_template.so\n'}
+[0.881144] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_tricycle_drive.so\n'}
+[0.881207] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_utils.so\n'}
+[0.881271] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_vacuum_gripper.so\n'}
+[0.881335] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgazebo_ros_video.so\n'}
+[0.881399] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgeometry_msgs__python.so\n'}
+[0.881462] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so\n'}
+[0.881526] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so\n'}
+[0.881589] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.881652] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.881714] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so\n'}
+[0.881777] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.881841] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.881904] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.881967] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.882030] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libimage_geometry.so\n'}
+[0.882093] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libimage_transport.so\n'}
+[0.882156] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libimage_transport_plugins.so\n'}
+[0.882218] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libimagetools.so\n'}
+[0.882280] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libinteractive_markers.so\n'}
+[0.882343] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libjoy.so\n'}
+[0.882405] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libkartoSlamToolbox.so\n'}
+[0.882469] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libkdl_parser.so\n'}
+[0.882577] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblaser_geometry.so\n'}
+[0.882651] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblayers.so\n'}
+[0.882758] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblibstatistics_collector.so\n'}
+[0.882854] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__python.so\n'}
+[0.882920] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so\n'}
+[0.882990] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so\n'}
+[0.883056] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.883121] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.883186] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so\n'}
+[0.883251] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.883317] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.883383] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.883450] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.883516] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblifecycle_msgs__python.so\n'}
+[0.883581] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblifecycle_msgs__rosidl_generator_c.so\n'}
+[0.883647] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblifecycle_msgs__rosidl_typesupport_c.so\n'}
+[0.883717] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblifecycle_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.883783] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblifecycle_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.883848] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblifecycle_msgs__rosidl_typesupport_cpp.so\n'}
+[0.883913] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.883979] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.884045] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.884111] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.884177] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblifelong_slam_toolbox.so\n'}
+[0.884244] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblistener_component.so\n'}
+[0.884311] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblocalization_slam_toolbox.so\n'}
+[0.884377] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblogger_config_component.so\n'}
+[0.884443] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblogger_usage_component.so\n'}
+[0.884508] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblogging_demo__python.so\n'}
+[0.884576] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblogging_demo__rosidl_generator_c.so\n'}
+[0.884643] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblogging_demo__rosidl_typesupport_c.so\n'}
+[0.884709] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblogging_demo__rosidl_typesupport_connext_c.so\n'}
+[0.884775] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblogging_demo__rosidl_typesupport_connext_cpp.so\n'}
+[0.884841] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblogging_demo__rosidl_typesupport_cpp.so\n'}
+[0.884907] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblogging_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[0.884977] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblogging_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.885042] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblogging_demo__rosidl_typesupport_introspection_c.so\n'}
+[0.885108] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liblogging_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[0.885173] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_io.so\n'}
+[0.885239] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_lib.so\n'}
+[0.885305] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_msgs__python.so\n'}
+[0.885370] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_msgs__rosidl_generator_c.so\n'}
+[0.885437] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_msgs__rosidl_typesupport_c.so\n'}
+[0.885506] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.885573] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.885638] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_msgs__rosidl_typesupport_cpp.so\n'}
+[0.885704] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.885770] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.885835] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.885901] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.885967] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmap_server_core.so\n'}
+[0.886033] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmessage_filters.so\n'}
+[0.886099] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmotions_lib.so\n'}
+[0.886165] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmove_base_msgs__python.so\n'}
+[0.886231] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmove_base_msgs__rosidl_generator_c.so\n'}
+[0.886297] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmove_base_msgs__rosidl_typesupport_c.so\n'}
+[0.886362] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmove_base_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.886427] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmove_base_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.886492] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmove_base_msgs__rosidl_typesupport_cpp.so\n'}
+[0.886602] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmove_base_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.886682] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmove_base_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.886748] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmove_base_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.886814] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmove_base_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.886880] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libmulti_camera_plugin.so\n'}
+[0.886946] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_back_up_action_bt_node.so\n'}
+[0.887011] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_backup_recovery.so\n'}
+[0.887076] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_behavior_tree.so\n'}
+[0.887141] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_clear_costmap_service_bt_node.so\n'}
+[0.887205] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_compute_path_to_pose_action_bt_node.so\n'}
+[0.887270] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_costmap_2d_client.so\n'}
+[0.887339] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_costmap_2d_core.so\n'}
+[0.887408] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_distance_controller_bt_node.so\n'}
+[0.887473] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_distance_traveled_condition_bt_node.so\n'}
+[0.887540] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_follow_path_action_bt_node.so\n'}
+[0.887606] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_goal_reached_condition_bt_node.so\n'}
+[0.887672] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_goal_updated_condition_bt_node.so\n'}
+[0.887737] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_goal_updater_node_bt_node.so\n'}
+[0.887802] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_initial_pose_received_condition_bt_node.so\n'}
+[0.887867] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_is_battery_low_condition_bt_node.so\n'}
+[0.887932] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_is_stuck_condition_bt_node.so\n'}
+[0.887998] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_lifecycle_manager_core.so\n'}
+[0.888063] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_msgs__python.so\n'}
+[0.888129] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_msgs__rosidl_generator_c.so\n'}
+[0.888194] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_c.so\n'}
+[0.888260] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.888329] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.888395] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_cpp.so\n'}
+[0.888460] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.888525] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.888593] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.888659] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.888724] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_navfn_planner.so\n'}
+[0.888790] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_navigate_to_pose_action_bt_node.so\n'}
+[0.888855] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_pipeline_sequence_bt_node.so\n'}
+[0.888920] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_rate_controller_bt_node.so\n'}
+[0.888986] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_recovery_node_bt_node.so\n'}
+[0.889051] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_reinitialize_global_localization_service_bt_node.so\n'}
+[0.889117] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_round_robin_node_bt_node.so\n'}
+[0.889181] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_rviz_plugins.so\n'}
+[0.889245] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_speed_controller_bt_node.so\n'}
+[0.889310] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_spin_action_bt_node.so\n'}
+[0.889375] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_spin_recovery.so\n'}
+[0.889441] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_time_expired_condition_bt_node.so\n'}
+[0.889507] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_transform_available_condition_bt_node.so\n'}
+[0.889574] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_truncate_path_action_bt_node.so\n'}
+[0.889641] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_util_core.so\n'}
+[0.889707] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_wait_action_bt_node.so\n'}
+[0.889778] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav2_wait_recovery.so\n'}
+[0.889844] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_2d_msgs__python.so\n'}
+[0.889910] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_2d_msgs__rosidl_generator_c.so\n'}
+[0.889976] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_2d_msgs__rosidl_typesupport_c.so\n'}
+[0.890042] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_2d_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.890109] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_2d_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.890175] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so\n'}
+[0.890240] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.890305] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.890371] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.890437] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.890502] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_msgs__python.so\n'}
+[0.890617] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_msgs__rosidl_generator_c.so\n'}
+[0.890683] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_c.so\n'}
+[0.890750] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.890815] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.890881] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_cpp.so\n'}
+[0.890947] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.891014] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.891081] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.891148] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.891213] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libnode_like_listener_component.so\n'}
+[0.891278] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctomap.so\n'}
+[0.891343] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctomap_msgs__python.so\n'}
+[0.891407] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctomap_msgs__rosidl_generator_c.so\n'}
+[0.891471] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctomap_msgs__rosidl_typesupport_c.so\n'}
+[0.891536] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctomap_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.891601] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctomap_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.891666] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctomap_msgs__rosidl_typesupport_cpp.so\n'}
+[0.891731] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.891796] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctomap_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.891861] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctomap_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.891932] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctomap_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.891997] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctomath.so\n'}
+[0.892061] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liboctovis.so\n'}
+[0.892125] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liborocos-kdl.so\n'}
+[0.892195] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libparameters_library.so\n'}
+[0.892260] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpath_ops.so\n'}
+[0.892325] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpcl_msgs__python.so\n'}
+[0.892390] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpcl_msgs__rosidl_generator_c.so\n'}
+[0.892456] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpcl_msgs__rosidl_typesupport_c.so\n'}
+[0.892521] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpcl_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.892587] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpcl_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.892656] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpcl_msgs__rosidl_typesupport_cpp.so\n'}
+[0.892721] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpcl_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.892786] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.892850] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpcl_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.892920] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpcl_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.892986] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpendulum_msgs__python.so\n'}
+[0.893052] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpendulum_msgs__rosidl_generator_c.so\n'}
+[0.893118] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpendulum_msgs__rosidl_typesupport_c.so\n'}
+[0.893183] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpendulum_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.893248] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpendulum_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.893313] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpendulum_msgs__rosidl_typesupport_cpp.so\n'}
+[0.893378] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpendulum_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.893443] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpendulum_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.893507] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpendulum_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.893573] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpendulum_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.893639] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libpf_lib.so\n'}
+[0.893704] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libplanner_server_core.so\n'}
+[0.893769] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl.so\n'}
+[0.893835] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_action.so\n'}
+[0.893901] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_interfaces__python.so\n'}
+[0.893967] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so\n'}
+[0.894032] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so\n'}
+[0.894096] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_connext_c.so\n'}
+[0.894161] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_connext_cpp.so\n'}
+[0.894226] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.894291] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.894356] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.894422] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.894488] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.894632] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_lifecycle.so\n'}
+[0.894701] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_logging_spdlog.so\n'}
+[0.894767] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcl_yaml_param_parser.so\n'}
+[0.894833] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librclcpp.so\n'}
+[0.894897] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librclcpp_action.so\n'}
+[0.894962] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librclcpp_lifecycle.so\n'}
+[0.895027] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librclpy_common.so\n'}
+[0.895092] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcpputils.so\n'}
+[0.895157] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librcutils.so\n'}
+[0.895222] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libresource_retriever.so\n'}
+[0.895288] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw.so\n'}
+[0.895353] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_dds_common.so\n'}
+[0.895419] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_dds_common__python.so\n'}
+[0.895485] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_dds_common__rosidl_generator_c.so\n'}
+[0.895550] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_dds_common__rosidl_typesupport_c.so\n'}
+[0.895616] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_dds_common__rosidl_typesupport_connext_c.so\n'}
+[0.895682] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_dds_common__rosidl_typesupport_connext_cpp.so\n'}
+[0.895824] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_dds_common__rosidl_typesupport_cpp.so\n'}
+[0.895956] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_dds_common__rosidl_typesupport_fastrtps_c.so\n'}
+[0.896022] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_dds_common__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.896088] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_dds_common__rosidl_typesupport_introspection_c.so\n'}
+[0.896154] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_dds_common__rosidl_typesupport_introspection_cpp.so\n'}
+[0.896219] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_fastrtps_cpp.so\n'}
+[0.896284] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_fastrtps_shared_cpp.so\n'}
+[0.896349] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librmw_implementation.so\n'}
+[0.896413] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librobot_state_publisher_node.so\n'}
+[0.896477] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libros1_bridge.so\n'}
+[0.896542] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosbag2_compression.so\n'}
+[0.896606] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosbag2_compression_zstd.so\n'}
+[0.896671] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosbag2_converter_default_plugins.so\n'}
+[0.896737] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosbag2_cpp.so\n'}
+[0.896802] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosbag2_storage.so\n'}
+[0.896867] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosbag2_storage_default_plugins.so\n'}
+[0.896933] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosbag2_transport.so\n'}
+[0.897005] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosgraph_msgs__python.so\n'}
+[0.897071] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so\n'}
+[0.897136] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_c.so\n'}
+[0.897200] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.897265] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.897335] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so\n'}
+[0.897401] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.897467] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.897533] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.897599] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.897665] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosidl_runtime_c.so\n'}
+[0.897730] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosidl_typesupport_c.so\n'}
+[0.897795] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosidl_typesupport_cpp.so\n'}
+[0.897860] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosidl_typesupport_fastrtps_c.so\n'}
+[0.897929] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosidl_typesupport_fastrtps_cpp.so\n'}
+[0.897996] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so\n'}
+[0.898061] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so\n'}
+[0.898127] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librqt_gui_cpp.so\n'}
+[0.898192] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librttest.so\n'}
+[0.898258] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librviz_common.so\n'}
+[0.898323] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librviz_default_plugins.so\n'}
+[0.898389] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/librviz_rendering.so\n'}
+[0.898453] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsensor_msgs__python.so\n'}
+[0.898546] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so\n'}
+[0.898631] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so\n'}
+[0.898709] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.898774] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.898839] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so\n'}
+[0.898904] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.898970] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.899035] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.899101] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.899167] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsensors_lib.so\n'}
+[0.899231] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libserver_component.so\n'}
+[0.899296] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libservices_library.so\n'}
+[0.899360] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libshape_msgs__python.so\n'}
+[0.899424] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libshape_msgs__rosidl_generator_c.so\n'}
+[0.899490] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_c.so\n'}
+[0.899554] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.899621] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.899687] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_cpp.so\n'}
+[0.899753] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.899824] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.899889] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.899953] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.900017] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsimple_goal_checker.so\n'}
+[0.900081] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsimple_progress_checker.so\n'}
+[0.900144] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libslam_toolbox__python.so\n'}
+[0.900209] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libslam_toolbox__rosidl_generator_c.so\n'}
+[0.900274] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libslam_toolbox__rosidl_typesupport_c.so\n'}
+[0.900339] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libslam_toolbox__rosidl_typesupport_connext_c.so\n'}
+[0.900404] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libslam_toolbox__rosidl_typesupport_connext_cpp.so\n'}
+[0.900469] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libslam_toolbox__rosidl_typesupport_cpp.so\n'}
+[0.900534] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so\n'}
+[0.900599] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.900663] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so\n'}
+[0.900728] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so\n'}
+[0.900793] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsmac_planner.so\n'}
+[0.900857] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsmac_planner_2d.so\n'}
+[0.900918] (-) TimerEvent: {}
+[0.901016] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstandard_traj_generator.so\n'}
+[0.901124] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstatic_transform_broadcaster_node.so\n'}
+[0.901195] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstatistics_msgs__python.so\n'}
+[0.901262] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so\n'}
+[0.901327] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so\n'}
+[0.901393] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.901459] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.901525] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so\n'}
+[0.901589] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.901655] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.901720] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.901790] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.901854] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_msgs__python.so\n'}
+[0.901918] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so\n'}
+[0.901982] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so\n'}
+[0.902046] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.902112] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.902177] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so\n'}
+[0.902247] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.902312] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.902378] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.902442] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.902507] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_srvs__python.so\n'}
+[0.902616] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_srvs__rosidl_generator_c.so\n'}
+[0.902699] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_c.so\n'}
+[0.902762] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_connext_c.so\n'}
+[0.902824] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_connext_cpp.so\n'}
+[0.902886] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_cpp.so\n'}
+[0.902949] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.903012] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.903075] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_introspection_c.so\n'}
+[0.903138] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.903201] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstereo_msgs__python.so\n'}
+[0.903263] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstereo_msgs__rosidl_generator_c.so\n'}
+[0.903324] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstereo_msgs__rosidl_typesupport_c.so\n'}
+[0.903386] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstereo_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.903448] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstereo_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.903510] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstereo_msgs__rosidl_typesupport_cpp.so\n'}
+[0.903573] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.903635] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.903698] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.903761] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.903824] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libstopped_goal_checker.so\n'}
+[0.903886] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libsync_slam_toolbox.so\n'}
+[0.903948] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtalker_component.so\n'}
+[0.904010] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtalker_native.so\n'}
+[0.904072] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libteleop_twist_joy.so\n'}
+[0.904134] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtest_msgs__python.so\n'}
+[0.904195] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtest_msgs__rosidl_generator_c.so\n'}
+[0.904258] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtest_msgs__rosidl_typesupport_c.so\n'}
+[0.904320] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtest_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.904383] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtest_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.904446] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtest_msgs__rosidl_typesupport_cpp.so\n'}
+[0.904510] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtest_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.904577] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtest_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.904640] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtest_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.904702] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtest_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.904764] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtest_plugin.so\n'}
+[0.904827] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf2.so\n'}
+[0.904889] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf2_msgs__python.so\n'}
+[0.904951] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf2_msgs__rosidl_generator_c.so\n'}
+[0.905018] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_c.so\n'}
+[0.905082] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.905145] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.905209] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_cpp.so\n'}
+[0.905272] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.905335] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.905397] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.905459] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.905521] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf2_ros.so\n'}
+[0.905602] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtf_help.so\n'}
+[0.905679] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtimers_library.so\n'}
+[0.905742] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtoolbox_common.so\n'}
+[0.905805] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtopics_library.so\n'}
+[0.905867] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtracetools.so\n'}
+[0.905930] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtrajectory_msgs__python.so\n'}
+[0.905993] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_generator_c.so\n'}
+[0.906055] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_c.so\n'}
+[0.906117] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.906179] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.906240] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so\n'}
+[0.906306] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.906369] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.906432] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.906494] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.906642] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlebot3_msgs__python.so\n'}
+[0.906707] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_generator_c.so\n'}
+[0.906771] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_c.so\n'}
+[0.906835] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.906899] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.906967] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so\n'}
+[0.907031] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.907094] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.907161] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.907225] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.907288] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlesim__python.so\n'}
+[0.907351] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlesim__rosidl_generator_c.so\n'}
+[0.907414] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[0.907477] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlesim__rosidl_typesupport_connext_c.so\n'}
+[0.907540] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlesim__rosidl_typesupport_connext_cpp.so\n'}
+[0.907602] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[0.907665] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[0.907727] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.907791] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[0.907854] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[0.907917] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libunique_identifier_msgs__python.so\n'}
+[0.907980] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_generator_c.so\n'}
+[0.908044] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so\n'}
+[0.908107] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.908170] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.908233] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so\n'}
+[0.908295] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.908357] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.908419] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.908481] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.908544] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/liburdf.so\n'}
+[0.908607] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libvisualization_msgs__python.so\n'}
+[0.908670] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libvisualization_msgs__rosidl_generator_c.so\n'}
+[0.908739] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_c.so\n'}
+[0.908803] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.908866] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.908928] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_cpp.so\n'}
+[0.908991] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.909052] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.909118] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.909180] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.909243] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libvoxel_grid.so\n'}
+[0.909306] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libwaypoint_follower_core.so\n'}
+[0.909368] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libwebots_ros2_msgs__python.so\n'}
+[0.909431] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libwebots_ros2_msgs__rosidl_generator_c.so\n'}
+[0.909495] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libwebots_ros2_msgs__rosidl_typesupport_c.so\n'}
+[0.909559] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libwebots_ros2_msgs__rosidl_typesupport_connext_c.so\n'}
+[0.909623] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libwebots_ros2_msgs__rosidl_typesupport_connext_cpp.so\n'}
+[0.909685] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libwebots_ros2_msgs__rosidl_typesupport_cpp.so\n'}
+[0.909748] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libwebots_ros2_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.909811] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libwebots_ros2_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.909873] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libwebots_ros2_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.909936] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libwebots_ros2_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.909999] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libyaml.so\n'}
+[0.910061] (rplidar_ros2) StderrLine: {'line': b'\t/opt/ros/foxy/lib/libzstd.so\n'}
+[0.910124] (rplidar_ros2) StderrLine: {'line': b'\t/usr/local/webots/lib/controller/libController.so\n'}
+[0.910186] (rplidar_ros2) StderrLine: {'line': b'\t/usr/local/webots/lib/controller/libCppCar.so\n'}
+[0.910250] (rplidar_ros2) StderrLine: {'line': b'\t/usr/local/webots/lib/controller/libCppController.so\n'}
+[0.910317] (rplidar_ros2) StderrLine: {'line': b'\t/usr/local/webots/lib/controller/libCppDriver.so\n'}
+[0.910379] (rplidar_ros2) StderrLine: {'line': b'\t/usr/local/webots/lib/controller/libcar.so\n'}
+[0.910442] (rplidar_ros2) StderrLine: {'line': b'\t/usr/local/webots/lib/controller/libdriver.so\n'}
+[0.910504] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_aruco.so\n'}
+[0.910627] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so\n'}
+[0.910691] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so\n'}
+[0.910774] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_calib3d.so\n'}
+[0.910871] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_ccalib.so\n'}
+[0.910966] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_core.so\n'}
+[0.911044] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_datasets.so\n'}
+[0.911110] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_dnn.so\n'}
+[0.911175] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so\n'}
+[0.911253] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so\n'}
+[0.911317] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_dpm.so\n'}
+[0.911382] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_face.so\n'}
+[0.911446] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_features2d.so\n'}
+[0.911537] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_flann.so\n'}
+[0.911604] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_freetype.so\n'}
+[0.911667] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so\n'}
+[0.911734] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_hdf.so\n'}
+[0.911797] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_hfs.so\n'}
+[0.911860] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_highgui.so\n'}
+[0.911922] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_img_hash.so\n'}
+[0.911984] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so\n'}
+[0.912047] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so\n'}
+[0.912108] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so\n'}
+[0.912171] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_ml.so\n'}
+[0.912233] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_objdetect.so\n'}
+[0.912296] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_optflow.so\n'}
+[0.912358] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so\n'}
+[0.912421] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_photo.so\n'}
+[0.912484] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_plot.so\n'}
+[0.912546] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_quality.so\n'}
+[0.912609] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_reg.so\n'}
+[0.912671] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_rgbd.so\n'}
+[0.912732] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_saliency.so\n'}
+[0.912794] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_shape.so\n'}
+[0.912856] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_stereo.so\n'}
+[0.912918] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_stitching.so\n'}
+[0.912984] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_structured_light.so\n'}
+[0.913048] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_superres.so\n'}
+[0.913110] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so\n'}
+[0.913172] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_text.so\n'}
+[0.913235] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_tracking.so\n'}
+[0.913297] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_video.so\n'}
+[0.913359] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_videoio.so\n'}
+[0.913421] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_videostab.so\n'}
+[0.913483] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_viz.so\n'}
+[0.913545] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so\n'}
+[0.913607] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so\n'}
+[0.913670] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libopencv_xphoto.so\n'}
+[0.913733] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Charts.so.5\n'}
+[0.913795] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Concurrent.so.5\n'}
+[0.913857] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Core.so.5\n'}
+[0.913920] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5DBus.so.5\n'}
+[0.913982] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5DataVisualization.so.5\n'}
+[0.914044] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Designer.so.5\n'}
+[0.914106] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5DesignerComponents.so.5\n'}
+[0.914168] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5EglFSDeviceIntegration.so.5\n'}
+[0.914234] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5EglFsKmsSupport.so.5\n'}
+[0.914297] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5\n'}
+[0.914360] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Help.so.5\n'}
+[0.914422] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Multimedia.so.5\n'}
+[0.914484] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5MultimediaGstTools.so.5\n'}
+[0.914610] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5MultimediaQuick.so.5\n'}
+[0.914675] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5MultimediaWidgets.so.5\n'}
+[0.914737] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Network.so.5\n'}
+[0.914799] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5\n'}
+[0.914862] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Positioning.so.5\n'}
+[0.914924] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5PositioningQuick.so.5\n'}
+[0.914986] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5\n'}
+[0.915048] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Qml.so.5\n'}
+[0.915110] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Quick.so.5\n'}
+[0.915173] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5QuickParticles.so.5\n'}
+[0.915239] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5QuickShapes.so.5\n'}
+[0.915303] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5QuickTest.so.5\n'}
+[0.915366] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5QuickWidgets.so.5\n'}
+[0.915428] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Script.so.5\n'}
+[0.915490] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Sensors.so.5\n'}
+[0.915551] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5SerialPort.so.5\n'}
+[0.915613] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Sql.so.5\n'}
+[0.915674] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Svg.so.5\n'}
+[0.915736] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Test.so.5\n'}
+[0.915799] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5WebChannel.so.5\n'}
+[0.915865] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5WebKit.so.5\n'}
+[0.915929] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5WebKitWidgets.so.5\n'}
+[0.915991] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5\n'}
+[0.916054] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5X11Extras.so.5\n'}
+[0.916116] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5XcbQpa.so.5\n'}
+[0.916178] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5Xml.so.5\n'}
+[0.916239] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libQt5XmlPatterns.so.5\n'}
+[0.916300] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libgflags.so\n'}
+[0.916363] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libgflags_nothreads.so\n'}
+[0.916426] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/x86_64-linux-gnu/libglog.so\n'}
+[0.916488] (rplidar_ros2) StderrLine: {'line': b'\t/usr/lib/libceres.so\n'}
+[0.916551] (rplidar_ros2) StderrLine: {'line': b'Unlinked libraries\n'}
+[0.916614] (rplidar_ros2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.916685] (rplidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake_core: 0.9.8 (/opt/ros/foxy/share/ament_cmake_core/cmake)\n'}
+[0.916751] (rplidar_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.916818] (rplidar_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.001043] (-) TimerEvent: {}
+[1.082819] (rplidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.092257] (rplidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.101142] (-) TimerEvent: {}
+[1.201384] (-) TimerEvent: {}
+[1.219958] (rplidar_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.253740] (rplidar_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.301508] (-) TimerEvent: {}
+[1.341118] (rplidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.401620] (-) TimerEvent: {}
+[1.430912] (rplidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.501752] (-) TimerEvent: {}
+[1.602106] (-) TimerEvent: {}
+[1.702418] (-) TimerEvent: {}
+[1.702724] (rplidar_ros2) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:29 (add_executable):\n'}
+[1.702882] (rplidar_ros2) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target rplidarNodeClient\n'}
+[1.702966] (rplidar_ros2) StderrLine: {'line': b'  because files in some directories may conflict with libraries in implicit\n'}
+[1.703042] (rplidar_ros2) StderrLine: {'line': b'  directories:\n'}
+[1.703116] (rplidar_ros2) StderrLine: {'line': b'\n'}
+[1.703189] (rplidar_ros2) StderrLine: {'line': b'    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.703261] (rplidar_ros2) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[1.703338] (rplidar_ros2) StderrLine: {'line': b'    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.703411] (rplidar_ros2) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[1.703483] (rplidar_ros2) StderrLine: {'line': b'    runtime library [liboctovis.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.703553] (rplidar_ros2) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[1.703622] (rplidar_ros2) StderrLine: {'line': b'    runtime library [libdynamicedt3d.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.703692] (rplidar_ros2) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[1.703761] (rplidar_ros2) StderrLine: {'line': b'\n'}
+[1.703831] (rplidar_ros2) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.703903] (rplidar_ros2) StderrLine: {'line': b'\n'}
+[1.703974] (rplidar_ros2) StderrLine: {'line': b'\n'}
+[1.802573] (-) TimerEvent: {}
+[1.902901] (-) TimerEvent: {}
+[1.968834] (rplidar_ros2) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:27 (add_executable):\n'}
+[1.969015] (rplidar_ros2) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target rplidarNode because\n'}
+[1.969100] (rplidar_ros2) StderrLine: {'line': b'  files in some directories may conflict with libraries in implicit\n'}
+[1.969178] (rplidar_ros2) StderrLine: {'line': b'  directories:\n'}
+[1.969252] (rplidar_ros2) StderrLine: {'line': b'\n'}
+[1.969325] (rplidar_ros2) StderrLine: {'line': b'    runtime library [liboctomap.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.969397] (rplidar_ros2) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[1.969469] (rplidar_ros2) StderrLine: {'line': b'    runtime library [liboctomath.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.969541] (rplidar_ros2) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[1.969613] (rplidar_ros2) StderrLine: {'line': b'    runtime library [liboctovis.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.969686] (rplidar_ros2) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[1.969768] (rplidar_ros2) StderrLine: {'line': b'    runtime library [libdynamicedt3d.so.1.9] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[1.969841] (rplidar_ros2) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[1.969912] (rplidar_ros2) StderrLine: {'line': b'\n'}
+[1.969983] (rplidar_ros2) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[1.970055] (rplidar_ros2) StderrLine: {'line': b'\n'}
+[1.970125] (rplidar_ros2) StderrLine: {'line': b'\n'}
+[1.974559] (rplidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.976066] (rplidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /root/app/ros2ex/rplidar_ros2/out/build/rplidar_ros2\n'}
+[1.985316] (rplidar_ros2) CommandEnded: {'returncode': 0}
+[1.986165] (rplidar_ros2) JobProgress: {'identifier': 'rplidar_ros2', 'progress': 'build'}
+[1.988211] (rplidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/app/ros2ex/rplidar_ros2/out/build/rplidar_ros2', '--', '-j4', '-l4'], 'cwd': '/root/app/ros2ex/rplidar_ros2/out/build/rplidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2421'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/root'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2276'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus,guid=8cfaee98f45bb7a832ff1fcd6125147e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'root'), ('JOURNAL_STREAM', '8:51191'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ZhuPC:@/tmp/.ICE-unix/2473,unix/ZhuPC:/tmp/.ICE-unix/2473'), ('INVOCATION_ID', 'e9c460278b544c77bab44d7ec8576085'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/16cf2029_5aee_499d_8e5e_167d346de751'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/0/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AUTH_SOCK', '/run/user/0/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/0/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/root/app/ros2ex/rplidar_ros2/out/build/rplidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/0/bus,guid=8cfaee98f45bb7a832ff1fcd6125147e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.003024] (-) TimerEvent: {}
+[2.034240] (rplidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rplidarNodeClient\x1b[0m\n'}
+[2.034429] (rplidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rplidarNode\x1b[0m\n'}
+[2.103171] (-) TimerEvent: {}
+[2.151630] (rplidar_ros2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o\x1b[0m\n'}
+[2.156922] (rplidar_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNode.dir/src/node.cpp.o\x1b[0m\n'}
+[2.160812] (rplidar_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o\x1b[0m\n'}
+[2.161015] (rplidar_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o\x1b[0m\n'}
+[2.203260] (-) TimerEvent: {}
+[2.303545] (-) TimerEvent: {}
+[2.308481] (rplidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/app/ros2ex/rplidar_ros2/./sdk/include/maros.h:190\x1b[m\x1b[K,\n'}
+[2.308706] (rplidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/app/ros2ex/rplidar_ros2/src/client.cpp:41\x1b[m\x1b[K:\n'}
+[2.308792] (rplidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[2.308873] (rplidar_ros2) StderrLine: {'line': b'   51 | #    \x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K POINT_CLOUD_DEPRECATION_MESSAGE\n'}
+[2.308945] (rplidar_ros2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.309455] (rplidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/app/ros2ex/rplidar_ros2/./sdk/include/maros.h:190\x1b[m\x1b[K,\n'}
+[2.309558] (rplidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/app/ros2ex/rplidar_ros2/src/node.cpp:39\x1b[m\x1b[K:\n'}
+[2.309636] (rplidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/point_cloud_conversion.hpp:51:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning POINT_CLOUD_DEPRECATION_MESSAGE [\x1b[01;35m\x1b[K-Wcpp\x1b[m\x1b[K]\n'}
+[2.309722] (rplidar_ros2) StderrLine: {'line': b'   51 | #    \x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K POINT_CLOUD_DEPRECATION_MESSAGE\n'}
+[2.309794] (rplidar_ros2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.403656] (-) TimerEvent: {}
+[2.503959] (-) TimerEvent: {}
+[2.599033] (rplidar_ros2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o\x1b[0m\n'}
+[2.604066] (-) TimerEvent: {}
+[2.645045] (rplidar_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o\x1b[0m\n'}
+[2.704180] (-) TimerEvent: {}
+[2.804530] (-) TimerEvent: {}
+[2.904876] (-) TimerEvent: {}
+[3.005244] (-) TimerEvent: {}
+[3.105571] (-) TimerEvent: {}
+[3.205968] (-) TimerEvent: {}
+[3.306267] (-) TimerEvent: {}
+[3.406578] (-) TimerEvent: {}
+[3.506881] (-) TimerEvent: {}
+[3.607189] (-) TimerEvent: {}
+[3.707500] (-) TimerEvent: {}
+[3.807812] (-) TimerEvent: {}
+[3.908119] (-) TimerEvent: {}
+[4.008431] (-) TimerEvent: {}
+[4.108730] (-) TimerEvent: {}
+[4.209048] (-) TimerEvent: {}
+[4.309364] (-) TimerEvent: {}
+[4.409660] (-) TimerEvent: {}
+[4.509958] (-) TimerEvent: {}
+[4.610262] (-) TimerEvent: {}
+[4.710577] (-) TimerEvent: {}
+[4.810866] (-) TimerEvent: {}
+[4.911155] (-) TimerEvent: {}
+[5.010161] (rplidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/root/app/ros2ex/rplidar_ros2/src/client.cpp:48:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[5.010359] (rplidar_ros2) StderrLine: {'line': b'   48 | void scanCallback(const sensor_msgs::msg::LaserScan::ConstPtr scan\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[5.010448] (rplidar_ros2) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.010534] (rplidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[5.010614] (rplidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/app/ros2ex/rplidar_ros2/./sdk/include/maros.h:197\x1b[m\x1b[K,\n'}
+[5.010688] (rplidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/app/ros2ex/rplidar_ros2/src/client.cpp:41\x1b[m\x1b[K:\n'}
+[5.010761] (rplidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:202:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.010834] (rplidar_ros2) StderrLine: {'line': b'  202 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[5.010992] (rplidar_ros2) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[5.011213] (-) TimerEvent: {}
+[5.111456] (-) TimerEvent: {}
+[5.211770] (-) TimerEvent: {}
+[5.312071] (-) TimerEvent: {}
+[5.412364] (-) TimerEvent: {}
+[5.512659] (-) TimerEvent: {}
+[5.612925] (-) TimerEvent: {}
+[5.713225] (-) TimerEvent: {}
+[5.813524] (-) TimerEvent: {}
+[5.913841] (-) TimerEvent: {}
+[6.014151] (-) TimerEvent: {}
+[6.114460] (-) TimerEvent: {}
+[6.214754] (-) TimerEvent: {}
+[6.315064] (-) TimerEvent: {}
+[6.415379] (-) TimerEvent: {}
+[6.515701] (-) TimerEvent: {}
+[6.616017] (-) TimerEvent: {}
+[6.716325] (-) TimerEvent: {}
+[6.816640] (-) TimerEvent: {}
+[6.916972] (-) TimerEvent: {}
+[7.017279] (-) TimerEvent: {}
+[7.117605] (-) TimerEvent: {}
+[7.217941] (-) TimerEvent: {}
+[7.318239] (-) TimerEvent: {}
+[7.418560] (-) TimerEvent: {}
+[7.518868] (-) TimerEvent: {}
+[7.619173] (-) TimerEvent: {}
+[7.719492] (-) TimerEvent: {}
+[7.819822] (-) TimerEvent: {}
+[7.920133] (-) TimerEvent: {}
+[7.925787] (rplidar_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable ../../rplidarNode\x1b[0m\n'}
+[8.020268] (-) TimerEvent: {}
+[8.120568] (-) TimerEvent: {}
+[8.220867] (-) TimerEvent: {}
+[8.321182] (-) TimerEvent: {}
+[8.421523] (-) TimerEvent: {}
+[8.521823] (-) TimerEvent: {}
+[8.622131] (-) TimerEvent: {}
+[8.661852] (rplidar_ros2) StdoutLine: {'line': b'[ 87%] Built target rplidarNode\n'}
+[8.722263] (-) TimerEvent: {}
+[8.822596] (-) TimerEvent: {}
+[8.922898] (-) TimerEvent: {}
+[9.023235] (-) TimerEvent: {}
+[9.123562] (-) TimerEvent: {}
+[9.223953] (-) TimerEvent: {}
+[9.324385] (-) TimerEvent: {}
+[9.424724] (-) TimerEvent: {}
+[9.525074] (-) TimerEvent: {}
+[9.607006] (rplidar_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ../../rplidarNodeClient\x1b[0m\n'}
+[9.625198] (-) TimerEvent: {}
+[9.725489] (-) TimerEvent: {}
+[9.825810] (-) TimerEvent: {}
+[9.926151] (-) TimerEvent: {}
+[10.026455] (-) TimerEvent: {}
+[10.126759] (-) TimerEvent: {}
+[10.227063] (-) TimerEvent: {}
+[10.327368] (-) TimerEvent: {}
+[10.337148] (rplidar_ros2) StdoutLine: {'line': b'[100%] Built target rplidarNodeClient\n'}
+[10.349081] (rplidar_ros2) CommandEnded: {'returncode': 0}
+[10.382305] (rplidar_ros2) JobProgress: {'identifier': 'rplidar_ros2', 'progress': 'install'}
+[10.395056] (rplidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/app/ros2ex/rplidar_ros2/out/build/rplidar_ros2'], 'cwd': '/root/app/ros2ex/rplidar_ros2/out/build/rplidar_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2421'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/root'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '2276'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus,guid=8cfaee98f45bb7a832ff1fcd6125147e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'root'), ('JOURNAL_STREAM', '8:51191'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ZhuPC:@/tmp/.ICE-unix/2473,unix/ZhuPC:/tmp/.ICE-unix/2473'), ('INVOCATION_ID', 'e9c460278b544c77bab44d7ec8576085'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/16cf2029_5aee_499d_8e5e_167d346de751'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/0/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.123'), ('SSH_AUTH_SOCK', '/run/user/0/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/0/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/root/app/ros2ex/rplidar_ros2/out/build/rplidar_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/0/bus,guid=8cfaee98f45bb7a832ff1fcd6125147e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[10.404367] (rplidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.404677] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/lib/rplidar_ros2/rplidarNode\n'}
+[10.406126] (rplidar_ros2) StdoutLine: {'line': b'-- Set runtime path of "/root/app/ros2ex/rplidar_ros2/out/install/lib/rplidar_ros2/rplidarNode" to ""\n'}
+[10.406299] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/lib/rplidar_ros2/rplidarNodeClient\n'}
+[10.409210] (rplidar_ros2) StdoutLine: {'line': b'-- Set runtime path of "/root/app/ros2ex/rplidar_ros2/out/install/lib/rplidar_ros2/rplidarNodeClient" to ""\n'}
+[10.409448] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/launch\n'}
+[10.409550] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/launch/view_rplidar.launch\n'}
+[10.409637] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/launch/rplidar.launch.py\n'}
+[10.409826] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/ament_index/resource_index/package_run_dependencies/rplidar_ros2\n'}
+[10.427563] (-) TimerEvent: {}
+[10.468841] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/ament_index/resource_index/parent_prefix_path/rplidar_ros2\n'}
+[10.469512] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/environment/ament_prefix_path.sh\n'}
+[10.470109] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/environment/ament_prefix_path.dsv\n'}
+[10.470629] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/environment/path.sh\n'}
+[10.471165] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/environment/path.dsv\n'}
+[10.471685] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/local_setup.bash\n'}
+[10.472041] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/local_setup.sh\n'}
+[10.472625] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/local_setup.zsh\n'}
+[10.472940] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/local_setup.dsv\n'}
+[10.473297] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/package.dsv\n'}
+[10.473589] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/ament_index/resource_index/packages/rplidar_ros2\n'}
+[10.473884] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/cmake/rplidar_ros2Config.cmake\n'}
+[10.474259] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/cmake/rplidar_ros2Config-version.cmake\n'}
+[10.474640] (rplidar_ros2) StdoutLine: {'line': b'-- Installing: /root/app/ros2ex/rplidar_ros2/out/install/share/rplidar_ros2/package.xml\n'}
+[10.481480] (rplidar_ros2) CommandEnded: {'returncode': 0}
+[10.527750] (-) TimerEvent: {}
+[10.560409] (rplidar_ros2) JobEnded: {'identifier': 'rplidar_ros2', 'rc': 0}
+[10.562220] (-) EventReactorShutdown: {}
