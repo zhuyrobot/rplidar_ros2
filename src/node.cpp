@@ -220,13 +220,13 @@ int main(int argc, char * argv[]) {
     //nh_private.param<bool>("angle_compensate", angle_compensate, true);
 
     std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("rplidar_node");
-    node->declare_parameter<std::string>("~serial_port", "/dev/ttyUSB0");
+    node->declare_parameter<std::string>("~serial_port", "/dev/ttyUSB1");
     node->get_parameter<std::string>("~serial_port", serial_port);
 
     node->declare_parameter<int>("~serial_baudrate", 115200);
     node->get_parameter<int>("~serial_baudrate", serial_baudrate);
 
-    node->declare_parameter<std::string>("~frame_id", "laser_frame");
+    node->declare_parameter<std::string>("~frame_id", "base_scan");
     node->get_parameter<std::string>("~frame_id", frame_id);
 
     node->declare_parameter<bool>("~inverted", false);
