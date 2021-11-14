@@ -3,7 +3,7 @@
  *
  *  Copyright (c) 2009 - 2014 RoboPeak Team
  *  http://www.robopeak.com
- *  Copyright (c) 2014 - 2016 Shanghai Slamtec Co., Ltd.
+ *  Copyright (c) 2014 - 2018 Shanghai Slamtec Co., Ltd.
  *  http://www.slamtec.com
  *
  */
@@ -128,6 +128,7 @@ Thread::priority_val_t Thread::getPriority()
 
 u_result Thread::join(unsigned long timeout)
 {
+    (void)timeout;
     if (!this->_handle) return RESULT_OK;
     
     pthread_join((pthread_t)(this->_handle), NULL);
